@@ -1,0 +1,104 @@
+/* #1 ROTATING CIRCLES CODE 
+=====================================*/
+/* Google Web Font
+=============================*/
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+/* body{
+    background-color: #171d25;
+    overflow-y: hidden;
+} */
+/* .container{
+    width: 50%;
+    margin: 0 auto;
+} */
+/* .circles{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: #171d25;
+} */
+/* .one{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(http://www.aprilzero.com/static/images/rings_desktop/0.png) no-repeat;
+    background-size: 100%;
+    animation: rotateRings 1.5s linear infinite;
+} */
+/* .second{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(http://www.aprilzero.com/static/images/rings_desktop/1.png) no-repeat ;
+    background-size: 400px 400px;
+    animation: rotateRings 80s linear infinite reverse;
+} */
+/* .third{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(http://www.aprilzero.com/static/images/rings_desktop/2.png) no-repeat ;
+    background-size: 400px 400px;
+    animation: rotateRings 80s linear infinite;
+} */
+
+/* @keyframes rotateRings{
+    to{
+        transform: rotateZ(360deg);
+    }
+} */
+
+
+
+
+/* #2 LOGO CODE
+====================================*/
+/* Custom CSS
+=============================*/
+.logo{
+    margin-left: 70px;
+    padding: 20px;
+}
+.logo span{
+    color: #666;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 35px;
+    text-transform: uppercase;
+    animation: highlightMe 2s ease infinite;
+}
+.logo span:nth-child(1){
+    animation-delay: 0ms;
+}
+.logo span:nth-child(2){
+    animation-delay: 100ms;
+}
+.logo span:nth-child(3){
+    animation-delay: 200ms;
+}
+.logo span:nth-child(4){
+    animation-delay: 300ms;
+}
+.logo span:nth-child(5){
+    animation-delay: 400ms;
+}
+.logo span:nth-child(6){
+    animation-delay: 500ms;
+}
+.logo span:nth-child(7){
+    animation-delay: 600ms;
+}
+.logo span:nth-child(8){
+    animation-delay: 700ms;
+}
+
+/* Animation Keyframes 
+=============================*/
+@keyframes highlightMe{
+    0%{color: #666;}
+    50%{color: #ddd;text-shadow: 2.5px 10px 1px #111;}
+    100%{color: #666;}
+}

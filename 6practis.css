@@ -1,0 +1,30 @@
+*{
+    background-color: darkcyan;
+}
+
+
+
+}
+.main{
+position: relative;
+}
+
+.part{
+    position: absolute;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+}
+
+
+.part02{
+  top: 50px;
+  left: 50px;
+}
+
+.part03{
+    top: 100px;
+    left: 100px;
+}

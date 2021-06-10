@@ -1,0 +1,370 @@
+
+.left-side{
+    display: flex;
+    /* flex: 1; */
+    /* float: left; */
+    float: left;
+}
+
+/********************** Aprilzero ****************************/
+.logo{
+    margin-left: 100px;
+    margin-top: 70px;
+    padding: 20px;
+}
+.logo span{
+    color: #666;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 35px;
+    text-transform: uppercase;
+    animation: highlightMe 2s ease infinite;
+}
+.logo span:nth-child(1){
+    animation-delay: 0ms;
+}
+.logo span:nth-child(2){
+    animation-delay: 100ms;
+}
+.logo span:nth-child(3){
+    animation-delay: 200ms;
+}
+.logo span:nth-child(4){
+    animation-delay: 300ms;
+}
+.logo span:nth-child(5){
+    animation-delay: 400ms;
+}
+.logo span:nth-child(6){
+    animation-delay: 500ms;
+}
+.logo span:nth-child(7){
+    animation-delay: 600ms;
+}
+.logo span:nth-child(8){
+    animation-delay: 700ms;
+}
+
+/* Animation Keyframes 
+=============================*/
+@keyframes highlightMe{
+    0%{color: #666;}
+    50%{color: #ddd;text-shadow: 2.5px 10px 1px #111;}
+    100%{color: #666;}
+}
+
+
+/* //////////////////////////////////////////navbar///////////////////////////////// */
+
+.navbar{
+    margin-top: 200px;
+    margin-left: -150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-menu-tab{
+    text-align: left;
+    background: transparent;
+    padding: 0 10px;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 40px;
+    /* -webkit-transition: background .3s; */
+    transition: all .1s;
+    text-decoration: none;
+}
+
+.header-menu-tab:hover{
+    background: transparent;
+    border-left: 8px solid #16a8f0;
+    text-decoration: none;
+}
+
+p{
+    font-size: 20px;
+    color: grey;
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: #13181e;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.right-side{
+    display: flex;
+    /* flex: 1; */
+    float: left;
+}
+
+.center{
+    margin-top: 400px;
+    margin-left: 600px;
+    /* position: absolute; */
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+}
+.circle1{
+    position: relative;
+    width: 170%;
+    height: 170%;
+    border-radius: 50%;
+    border: 8px dotted #16a8f0;
+    border-spacing: 20px;
+    box-sizing: border-box;
+    font-weight: 500;
+    animation: animationCircle1 25s linear infinite;
+}
+.circle2{
+    /* position: absolute; */
+    /* top: 25px;
+    left: 25px; */
+    margin-top: -616px;
+    margin-left: 60px;
+    width: 140%;
+    height: 140%;
+    border-radius: 50%;
+    border: 5px #16a8f0;
+    border-style: dashed;
+    box-sizing: border-box;
+    animation: animationCircle2 25s linear infinite;
+}
+.circle3{
+    /* position: absolute; */
+    /* top: 45px;
+    left: 45px; */
+    margin-top: -538px;
+    margin-left: 80px;
+    width: 128%;
+    height: 128%;
+    border-radius: 50%;
+    border: 4px inset #16a8f0;
+    box-sizing: border-box;
+    animation: animationCircle3 25s linear infinite;
+}
+
+.circle4{
+    /* position: absolute; */
+    /* top: 45px;
+    left: 45px; */
+    margin-top: -501px;
+    margin-left: 92px;
+    width: 122%;
+    height: 122%;
+    border-radius: 50%;
+    border: 6px inset white;
+    box-sizing: border-box;
+    animation: animationCircle3 25s linear infinite;
+}
+
+.circle5{
+    /* position: absolute; */
+    /* top: 45px;
+    left: 45px; */
+    margin-top: -464px;
+    margin-left: 117px;
+    width: 110%;
+    height: 110%;
+    border-radius: 50%;
+    border: 3px dashed #16a8f0;
+    box-sizing: border-box;
+    animation: animationCircle3 25s linear infinite;
+}
+
+.circle6{
+    position: relative;
+    /* top: 45px;
+    left: 45px; */
+    margin-top: -504px;
+    margin-left: 60px;
+    width: 140%;
+    height: 140%;
+    border-radius: 50%;
+    border: 3px dashed transparent;
+    box-sizing: border-box;
+    
+}
+
+.circle6:hover{
+    animation: animationCircle6 7s ;
+}
+
+@keyframes animationCircle6 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(145deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circle00{
+    position: absolute;
+    background-color: #16a8f0;
+    margin-top: -100px;
+    margin-left: 200px;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 20px double rgb(0, 0, 0);
+    box-sizing: border-box;
+    animation: animationCircle00 25s linear infinite;
+
+}
+@keyframes animationCircle00 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.circle00:hover{
+    width: 40%;
+    height: 40%;
+}
+
+.circle02:hover{
+    width: 40%;
+    height: 40%;
+}
+.circle03:hover{
+    width: 40%;
+    height: 40%;
+}
+
+
+
+
+.home{
+    color: white;
+}
+
+
+
+.circle02{
+    position: absolute;
+    background-color: #16a8f0;
+    margin-top: 300px;
+    margin-left: -50px;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 20px double rgb(0, 0, 0);
+    box-sizing: border-box;
+    animation: animationCircle00 25s linear infinite;
+
+}
+@keyframes animationCircle02 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle03{
+    position: absolute;
+    background-color: #16a8f0;
+    margin-top: 295px;
+    margin-left: 436px;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    border: 20px double rgb(0, 0, 0);
+    box-sizing: border-box;
+    animation: animationCircle00 25s linear infinite;
+
+}
+@keyframes animationCircle03 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes animationCircle1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes animationCircle2 {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animationCircle3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.san{
+    margin-top: -348px;
+    margin-left: 268px;
+    color: white;
+}
+
+.santext{
+    margin-top: 0px;
+    margin-left: 203px;
+    width: 70%;
+}
+
+
+/* .social-icons img{
+    position: absolute;
+}
+.social-icons img:nth-child(1){
+    top: -10%;
+    left: 40%;
+}
+.social-icons img:nth-child(2){
+    top: 60%;
+    right: 80%;
+}
+.social-icons img:nth-child(3){
+    top: 60%;
+    left: 80%;
+} */
+
+
